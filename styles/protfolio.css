@@ -34,8 +34,10 @@ header{
    background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
-    
+   
+   
 }
+
 nav{
     width: 71%;
     max-width: 1140px;
@@ -88,8 +90,10 @@ nav .menu a{
     margin-bottom: 30px;
 }
 #banner .banner-image {
-    max-width: 585px;
-    vertical-align: middle;
+    max-width: 584px;
+    height: 676px;
+    vertical-align: bottom;
+    padding-bottom: 0px;
    
 }
 #about, #skills , #resume{
