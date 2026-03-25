@@ -338,3 +338,51 @@ nav .menu{
     
 }
 }
+@media screen and (min-width:576px ) and (max-width: 992px){
+    #skills .skills-container .skill-box ,#about .about-container .about-info, footer .footer-container, #resume .resume-containe, nav , #banner{
+    flex-direction: column;
+ }
+ #skills .skills-container {
+    width: 95%;
+    }
+    #about .about-container{
+        padding: 20px;
+        margin: 0 auto;
+        width: 100%;
+        
+    }
+   .section-heading h2{
+    font-size: 30px;
+   
+}
+nav{
+    gap: 20px;
+}
+nav .menu{
+    flex-wrap: wrap;
+    
+}
+
+#banner{
+    margin: 20px;
+    gap: 20px;
+    text-align: center;
+}
+#banner .banner-content h1{
+    font-size: 73px;
+}
+
+
+ #about .about-container .about-info{
+    gap: 40px;
+ }
+ 
+
+.skill-box .skill-card{
+    max-width: 100%;
+ }
+.footer-container form input[type="text"],.footer-container form textarea{
+    width: 100%;
+    
+}
+}
